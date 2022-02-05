@@ -21,7 +21,7 @@ public class main {
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("~~~~ Welcome! ~~~~");
-		System.out.println("This program uses the universal dose forumla to calcualte doses!");
+		System.out.println("This program uses the universal dose formula to calcualte doses!");
 		System.out.println();
 		System.out.print("Enter desired amount: ");
 		doseInfo[0] = keyboard.nextDouble();//get desired amount from user
