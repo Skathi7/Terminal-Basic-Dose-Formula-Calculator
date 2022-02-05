@@ -1,4 +1,5 @@
 package calcDoseFormula;
+
 import java.util.Scanner;
 /*
  * This is meant to be a super simple java dose calculator displayed in terminal/command-line, 
@@ -8,7 +9,7 @@ import java.util.Scanner;
  */
 public class main {
 	public static void main(String[] args) {
-		double[] doseInfo = new double[3]; //0 is desiredDose, 1 is onHandDose, 2 is volume
+		double[] doseInfo = new double[3]; //0 is desiredDose, 1 is onHandDose, 2 is quantity
 		double calculatedDose = 0;
 		
 		getUserInput(doseInfo);
@@ -29,8 +30,8 @@ public class main {
 		System.out.print("Enter the amount on hand: ");
 		doseInfo[1] = keyboard.nextDouble();//get amount on hand from user
 		
-		System.out.print("Enter the volume: ");
-		doseInfo[2] = keyboard.nextDouble();//get volume from user
+		System.out.print("Enter the quantity of tablets/vehicle: ");
+		doseInfo[2] = keyboard.nextDouble();//get quantity from user
 		
 	}//End of getUserInput
 		
